@@ -890,10 +890,10 @@ export default function App() {
               <div className="contact-item"><span className="contact-icon">⏰</span><div><h4>Opening Hours</h4><p>Mon-Sun: 11am - 11pm</p></div></div>
             </div>
             <div className="social-links">
-              <a href="#" className="social-link">📧</a>
-              <a href="#" className="social-link">📸</a>
-              <a href="#" className="social-link">💬</a>
-              <a href="#" className="social-link">▶️</a>
+              <a href="/" className="social-link" onClick={(e) => e.preventDefault()}>📧</a>
+              <a href="/" className="social-link" onClick={(e) => e.preventDefault()}>📸</a>
+              <a href="/" className="social-link" onClick={(e) => e.preventDefault()}>💬</a>
+              <a href="/" className="social-link" onClick={(e) => e.preventDefault()}>▶️</a>
             </div>
           </div>
         </div>
